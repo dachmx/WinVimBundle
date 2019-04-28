@@ -45,6 +45,8 @@ let g:Powerline_symbols = 'fancy'
 "}
 "
 let g:SuperTabDefaultCompletionType="context"  
+let g:SuperTabMappingForward = "<tab>"
+let g:SuperTabMappingBackward= "s-tab"	" 如果不需要补全功能，可以按shift+tab
 
 set guifont=Courier_New:h10:cANSI   " 设置字体  
 "syntax on           " 语法高亮  
